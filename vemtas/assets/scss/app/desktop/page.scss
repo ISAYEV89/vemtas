@@ -1,0 +1,265 @@
+.page-pt {
+  padding-top: 20px;
+}
+
+.page {
+
+  //width: 76%;
+  min-height: 400px;
+  box-shadow: 0 0 40px #c5bcbc;
+
+  &--mb {
+    margin-bottom: 24px;
+  }
+
+  &__title {
+    background-color: #F1FBE9;
+    color: #5c4a4a;
+    padding-left: 35px;
+    line-height: 25px;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  &__main {
+
+    background: rgba(0, 255, 0, .2);
+    min-height: 400px;
+  }
+
+  &__header {
+    display: flex;
+    background-color: rgb(88, 206, 88, 0.6);
+
+    & > span:not(:last-child) {
+      margin-right: 4px;
+    }
+
+    &-item {
+      background-color: #58ce58;
+      min-height: 40px;
+      text-align: center;
+      color: #fff;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+    }
+  }
+
+  &__content {
+    background-color: #D3E4CC;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+
+    &-item {
+      font-size: 14px;
+      color: #434343;
+    }
+  }
+
+
+  &__footer {
+    background-color: #67BD2A;
+    padding: 5px;
+    text-align: end;
+
+    &-item {
+      padding-right: 10px;
+      color: #fff;
+      text-decoration: underline;
+      font-size: 14px;
+
+      &:hover {
+        color: #d7b4f9;
+      }
+    }
+  }
+
+  &__add {
+    background-color: #ADB9AD;
+    color: #fff;
+    line-height: 40px;
+    font-size: 15px;
+    padding-left: 25px;
+    min-width: 640px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &:hover {
+      text-decoration: none;
+      color: #fff;
+      background-color: #5C4A4A;
+    }
+
+    &-span {
+      background-color: #bbe7bb;
+      color: #535653;
+      height: 100%;
+      width: 51px;
+      text-align: center;
+      margin-right: 18px;
+
+      font-size: 50px;
+      align-items: center;
+      justify-content: center;
+      padding-bottom: 9px;
+    }
+  }
+
+}
+
+.btn-wrap {
+  //width: 76%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+
+  & > div:not(:last-child) {
+    margin-right: 18px;
+  }
+
+  &--mt {
+    margin-top: 20px;
+  }
+}
+
+.page-form {
+  background-color: #fff;
+
+  &--green {
+    background-color: #CCFFCC;
+  }
+
+
+  &__item {
+    display: flex;
+    padding: 12px 35px;
+  }
+
+  &__title {
+    width: 50%;
+    display: flex;
+    align-items: center;
+  }
+
+  &__select {
+    width: 50%;
+    height: 37px;
+  }
+
+  &__submit {
+    background-color: #EBFFEC;
+    height: 75px;
+    padding: 12px 35px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    &-item {
+      margin-left: 15px;
+      height: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      -moz-border-radius: 0;
+      -webkit-border-radius: 0;
+      border-radius: 10px;
+      width: auto;
+      min-width: 100px;
+      color: #fff;
+      background-color: #84c398;
+
+      &:hover {
+        background-color: #7ECC71;
+        color: #fff;
+        text-decoration: none;
+
+      }
+    }
+  }
+
+  &__headline {
+    background-color: rgba(255, 255, 255, 0.56);
+    color: rgb(92, 74, 74);
+    padding-left: 35px;
+    line-height: 25px;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+  }
+
+  &__headline2 {
+    background-color: #E4E4E4;
+  }
+
+  &__span {
+
+  }
+
+  &__input {
+    width: 100%;
+    background-color: #f9f9f9;
+    border: 1px solid #cbcbcb;
+    height: 30px;
+    padding-left: 10px;
+    font-size: 13px;
+
+    &-wrap {
+      display: flex;
+      width: 50%;
+
+      & >:not(:last-child) {
+        margin-right: 8px;
+      }
+    }
+  }
+
+}
+
+.button {
+  display: flex;
+
+  &--black {
+    background-color: #646464 !important;
+    -moz-box-shadow: 0 0 0 2pt #4d4d4d !important;
+    -webkit-box-shadow: 0 0 0 2pt #4d4d4d !important;
+    box-shadow: 0 0 0 2pt #4d4d4d !important;
+  }
+
+  &__link {
+
+    font-size: 14px;
+    color: #fff;
+    border-radius: 20px;
+    min-width: 150px;
+    border: 2px solid #fff;
+    height: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #00ba00;
+    box-shadow: 0 0 0 2pt #00ba00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:hover {
+      color: white;
+      text-decoration: none;
+    }
+  }
+}
+
+
+.choose {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
