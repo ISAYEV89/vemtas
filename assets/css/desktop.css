@@ -1045,7 +1045,8 @@ body {
     padding: 0 !important;
     padding-left: 20px !important;
     display: flex;
-    align-items: center
+    align-items: center;
+    font-weight: 500;
 }
 
 .family-radio__title:hover {

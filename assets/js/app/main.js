@@ -1,5 +1,9 @@
 $(function () {
 
+//// default
+
+
+
 /// login
 
     $('.login-block__input').focusin(function () {
