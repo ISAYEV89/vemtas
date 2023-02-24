@@ -1136,6 +1136,20 @@ body {
 }
 
 
+.title-info {
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    color: #00ba00;
+    margin-bottom: 20px;
+}
+
+.button-center {
+    display: flex;
+    justify-content: center;
+}
+
 /*input[type=checkbox] {*/
 /*    width: 12px;*/
 /*    height: 12px;*/
