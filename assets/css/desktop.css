@@ -1150,6 +1150,32 @@ body {
     justify-content: center;
 }
 
+
+.input-select {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.input-select1 {
+    width: 100%;
+    margin-right: 20px;
+}
+
+.input-select1 select{
+    height: 37px;
+    width: 100%;
+}
+
+.input-select2 {
+    width: 140%;
+}
+
+.input-select2 input{
+    width: 100%;
+}
+
+
 /*input[type=checkbox] {*/
 /*    width: 12px;*/
 /*    height: 12px;*/

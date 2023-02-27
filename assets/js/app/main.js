@@ -232,6 +232,15 @@ $(function () {
         $('.addLink').attr('href', 'address-add.html');
     })
 
+    $('.address-choose3').click(function () {
+        $('.addressChoose').removeClass('d-block');
+        $('.addLink').attr('href', 'non-residental-area3.html');
+    })
+
+    $('.adressShow').click(function () {
+        $('.addressChoose').toggleClass('d-block');
+    })
+
     $('.address-que').click(function () {
        let family =  $(this).hasClass('anotherFamily');
         if(family) {
