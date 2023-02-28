@@ -222,27 +222,51 @@ $(function () {
 
    //// address choose
 
-    $('.address-choose2').click(function () {
-        $('.addressChoose').toggleClass('d-block');
-        $('.addLink').attr('href', 'address2.html');
+   $('.address-choose2').click(function () {
+    $('.addressChoose').toggleClass('d-block');
+    $('.addLink').attr('href', 'address2.html');
 
-    });
+});
 
-    $('.address-choose1').click(function () {
-        $('.addressChoose').removeClass('d-block');
-        $('.addLink').attr('href', 'address-add.html');
-    })
+$('.address-choose1').click(function () {
+    $('.addressChoose').removeClass('d-block');
+    $('.addLink').attr('href', 'address-add.html');
+})
 
-    $('.address-que').click(function () {
-       let family =  $(this).hasClass('anotherFamily');
-        if(family) {
-           $('.pageForm').removeClass('d-none')
-        }else {
-            $('.pageForm').addClass('d-none')
+$('.address-choose3').click(function () {
+    $('.addressChoose').removeClass('d-block');
+    $('.addLink').attr('href', 'non-residental-area3.html');
+})
 
-        }
+$('.adressShow').click(function () {
+    $('.addressChoose').toggleClass('d-block');
+})
 
-    })
+$('.address-que').click(function () {
+   let family =  $(this).hasClass('anotherFamily');
+    if(family) {
+       $('.pageForm').removeClass('d-none')
+    }else {
+        $('.pageForm').addClass('d-none')
+
+    }
+
+})
+
+
+
+var checkInfo = $('.input-block').prop('checked');
+
+$('.checkedChange').click(function (e) {
+    checkInfo = $('.input-block').prop('checked');
+    if(!checkInfo){
+        e.preventDefault();
+    }
+});
+
+
+
+    
 
 });
 
