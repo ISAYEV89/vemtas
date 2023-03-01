@@ -1175,6 +1175,16 @@ body {
     width: 100%;
 }
 
+.page-t {
+    display: flex;
+}
+
+
+.page-t > span{
+    text-align: left;
+    padding-left: 20px;
+}
+
 
 /*input[type=checkbox] {*/
 /*    width: 12px;*/
